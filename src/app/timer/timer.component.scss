@@ -1,0 +1,61 @@
+.timer {
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  top: 3px;
+  margin:  0;
+  color: #00517a;
+  transition: color 0.2s ease-out;
+}
+
+.play-button {
+  margin-top: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  height: 20px;
+  border-color: transparent;
+  transition: 100ms all ease;
+  will-change: border-width;
+  cursor: pointer;
+
+  // play state
+  border-style: solid;
+  border-width: 10px 0 10px 17px;
+
+  // paused state
+  &.pause {
+    border-style: double;
+    border-width: 0px 0 0px 15px;
+  }
+}
+
+.play-button:hover {
+  border-color: transparent transparent transparent #787e7e;
+}
+
+svg {
+  display: block;
+  margin: 5px auto;
+}
+
+.loader
+{ fill: #0088cc }
+
+.border
+{ fill: #00517a }
+
+.timer-circle {
+  pointer-events: none;
+  color: #00517a;
+  border : 1px solid #00517a;
+  border-radius:50%;
+  overflow:hidden;
+  position:absolute;
+}
+
+.timer-text {
+  text-anchor: middle;
+  font-size: small;
+  font-family: Arial, sans-serif;
+  padding-top: 5px;
+}
