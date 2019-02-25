@@ -24,3 +24,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Running the json server
 Run `yarn json-server`
+
+Process 
+
+1. Create a svg (circle), div (play/pause button) & text. 
+2. Add timer functionality.
+3. Animate the timer countdown.
+4. Play/Pause CSS.
+5. Add Timer to each Todo item as a component (app-timer)
+6. Remove timer for completed tasks
+
+Still do do:
+
+* If a task has time spent on it should show below the timer
+* update/save time spent & display 
+
