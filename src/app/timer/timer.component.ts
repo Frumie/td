@@ -7,7 +7,7 @@ import {scan, switchMap, takeUntil} from 'rxjs/operators';
   templateUrl: './timer.component.html',
   styleUrls: ['./timer.component.scss']
 })
-export class TimerComponent implements OnInit, OnDestroy {
+export class TimerComponent implements OnDestroy {
 
   //30 minutes
   private max = 1800;
